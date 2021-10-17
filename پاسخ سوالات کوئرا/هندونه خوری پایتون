@@ -1,0 +1,3 @@
+_=int(input())
+weight=list(map(int,input().split()))
+print(weight.index(max(weight)) + 1)
